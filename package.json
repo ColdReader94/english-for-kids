@@ -1,0 +1,52 @@
+{
+  "name": "english_for_kids",
+  "version": "1.0.0",
+  "description": "coldreader94-JS2020Q3",
+  "main": "./src/script.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "browserlist": "^1.0.1",
+    "css-loader": "^5.0.2",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.3.7",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/coldreader94-JS2020Q3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/coldreader94-JS2020Q3/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "homepage": "https://github.com/rolling-scopes-school/coldreader94-JS2020Q3#readme"
+}

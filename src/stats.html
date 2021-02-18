@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+        <title>Stats</title>
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>       
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type="module" src="./showStats.js"></script>
+    </head>	
+    <body>
+       <header class="header">
+            <nav role="navigation">
+                <div class="menuToggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="menu">
+                        <a class="header-item" href="index.html">Back to game</a>
+                    </div>                    
+            </nav>
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" class="switch-input" checked="">
+                    <span class="switch-label"></span>
+                    <span class="switch-handle"></span>
+                </label>
+            </div>
+            <div class="stat-btns">
+                <div class="btn repeat-dif-words"><a href="./repeat.html">Repeat difficult words</a></div>
+                <div class="btn reset-stats">Reset stats</div>
+            </div>
+       </header>
+       <main class="main stat">
+          <table>
+              <thead class="table-head">
+                  <th class="category">Category</th>
+                  <th class="words">Words</th>
+                  <th class="traslate">Translate</th>
+                  <th class="clicks">Clicks in Training mode</th>
+                  <th class="num-failed">Number of failed translate</th>
+                  <th class="num-right">Number of right translate</th>
+                  <th class="procent-right">% of right translate</th>
+              </thead>   
+              <tbody class="table-stats">
+
+              </tbody>          
+          </table>
+       </main>
+       <footer class="footer">
+           <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg" alt="" width="80" height="40"></a>
+           <a href="https://github.com/ColdReader94">2020, ColdReader94</a>
+       </footer>
+    </body>
+</html> 
